@@ -4,7 +4,7 @@ import { ExampleComponent } from 'winbox-react'
 import 'winbox-react/dist/index.css'
 
 const App = () => {
-  return <ExampleComponent text="Create React Library Example 😄" />
+  return <ExampleComponent />
 }
 
 export default App
