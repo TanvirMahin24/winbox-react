@@ -2,6 +2,8 @@
 
 > This package is the react version of Winbox.js
 
+Documentation with example code: [Visit Now](https://tanvirmahin24.github.io/winbox-react/)
+
 [![NPM](https://img.shields.io/npm/v/winbox-react.svg)](https://www.npmjs.com/package/winbox-react) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 ## Install
@@ -9,8 +11,21 @@
 ```bash
 npm install --save winbox-react
 ```
+## Usage in functional components
 
-## Usage
+```jsx
+import React from 'react'
+
+import WinboxReact from 'winbox-react'
+import 'winbox-react/dist/index.css'
+
+cosnt Example = () =>{
+    return <WinboxReact />
+  
+}
+```
+
+## Usage in Class based components
 
 ```jsx
 import React, { Component } from 'react'
