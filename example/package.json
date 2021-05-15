@@ -10,9 +10,14 @@
     "eject": "node ../node_modules/react-scripts/bin/react-scripts.js eject"
   },
   "dependencies": {
+    "@favware/syntax-highlighter-react": "^1.1.0",
+    "bootstrap": "^4.6.0",
     "react": "file:../node_modules/react",
+    "react-bootstrap": "^1.6.0",
     "react-dom": "file:../node_modules/react-dom",
+    "react-icons": "^4.2.0",
     "react-scripts": "file:../node_modules/react-scripts",
+    "react-syntax-highlighter": "^15.4.3",
     "winbox-react": "file:.."
   },
   "devDependencies": {

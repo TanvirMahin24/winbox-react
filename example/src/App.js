@@ -1,7 +1,8 @@
 import React from 'react'
-
+import 'bootstrap/dist/css/bootstrap.min.css'
 import WinboxReact from 'winbox-react'
 import 'winbox-react/dist/index.css'
+import { LandingPage } from './Views/LandingPage'
 
 const App = () => {
   const options = {
@@ -42,12 +43,14 @@ const App = () => {
     modern: false
   }
   return (
-    <WinboxReact {...options}>
-      <h4>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci
-        inventore ut fugit iusto ex ad nihil, fuga ipsum tenetur itaque?
-      </h4>
-    </WinboxReact>
+    <LandingPage />
+
+    // <WinboxReact {...options}>
+    //   <h4>
+    //     Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci
+    //     inventore ut fugit iusto ex ad nihil, fuga ipsum tenetur itaque?
+    //   </h4>
+    // </WinboxReact>
   )
 }
 

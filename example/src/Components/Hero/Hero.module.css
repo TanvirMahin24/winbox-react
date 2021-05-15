@@ -1,0 +1,31 @@
+.name {
+  font-size: 2.8rem;
+  color: var(--color2);
+  letter-spacing: 10px;
+  padding-top: 30px;
+  padding-bottom: 15px;
+  background: linear-gradient(
+    178.18deg,
+    var(--color2) -13.56%,
+    var(--color1) 158.3%
+  );
+  background-size: 100%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.text {
+  display: block;
+  font-size: 1.4rem;
+  color: var(--color_light);
+  letter-spacing: 10px;
+  padding-bottom: 5px !important;
+}
+
+.text a {
+  text-decoration: none;
+  color: var(--color2);
+}
