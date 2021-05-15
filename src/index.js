@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useRef } from 'react'
 import ReactDOMServer from 'react-dom/server'
 import WinBox from 'winbox/src/js/winbox'
 import 'winbox/dist/css/winbox.min.css'
@@ -19,7 +19,8 @@ const WinboxReact = ({
   left,
   modal,
   children,
-  modern
+  modern,
+  onClose
 }) => {
   const wb = new WinBox(title, {
     border,
@@ -34,10 +35,11 @@ const WinboxReact = ({
     left,
     modal,
     html: `${ReactDOMServer.renderToStaticMarkup(children)}`,
-    class: `${modern ? 'modern' : className ? `${className}` : ''}`
+    class: `${modern ? 'modern' : className ? `${className}` : ''}`,
+    onclose: onClose()
   })
 
-  return <div className={className ? `${$className}` : ''}></div>
+  return <div></div>
 }
 
 WinboxReact.defaultProps = {

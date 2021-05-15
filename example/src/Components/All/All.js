@@ -76,7 +76,7 @@ const All = () => {
     width: '20%',
     height: '50%',
 
-    //LIMIT VIEWPORT
+    //LIMIT VIEWPORT 
     top: 50,
     right: 50,
     bottom: 100,

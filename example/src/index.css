@@ -35,17 +35,7 @@ code {
 .title__colored {
   padding-top: 30px;
   letter-spacing: 10px;
-  background: linear-gradient(
-    178.18deg,
-    var(--color2) -13.56%,
-    var(--color1) 158.3%
-  );
-  background-size: 100%;
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-background-clip: text;
-  -moz-text-fill-color: transparent;
+  color: var(--color2);
 }
 
 .btn-custom {

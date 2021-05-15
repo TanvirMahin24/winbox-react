@@ -1,6 +1,7 @@
 import React from 'react'
 import { All } from '../../Components/All'
 import { Example } from '../../Components/Example'
+import { Footer } from '../../Components/Footer'
 import { Hero } from '../../Components/Hero'
 import { Usage } from '../../Components/Usage'
 
@@ -11,6 +12,7 @@ const LandingPage = () => {
       <Usage />
       <Example />
       <All />
+      <Footer />
     </>
   )
 }

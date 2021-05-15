@@ -1,8 +1,8 @@
-import React from "react";
-import { VscGithubAlt, VscMail, VscTwitter } from "react-icons/vsc";
-import { RiFacebookLine, RiLinkedinLine } from "react-icons/ri";
-import data from "../../../stub/SocialLinks/data";
-import styles from "./SocialIcons.module.css";
+import React from 'react'
+import { VscGithubAlt, VscMail, VscTwitter } from 'react-icons/vsc'
+import { RiFacebookLine, RiLinkedinLine } from 'react-icons/ri'
+import data from '../../stub/SocialLinks/data'
+import styles from './SocialIcons.module.css'
 
 const SocialIcons = () => {
   return (
@@ -23,7 +23,7 @@ const SocialIcons = () => {
         <VscMail />
       </a>
     </div>
-  );
-};
+  )
+}
 
-export default SocialIcons;
+export default SocialIcons

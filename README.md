@@ -1,6 +1,6 @@
 # winbox-react
 
-> This package is the react version of Winbox.js 
+> This package is the react version of Winbox.js
 
 [![NPM](https://img.shields.io/npm/v/winbox-react.svg)](https://www.npmjs.com/package/winbox-react) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
@@ -15,12 +15,12 @@ npm install --save winbox-react
 ```jsx
 import React, { Component } from 'react'
 
-import MyComponent from 'winbox-react'
+import WinboxReact from 'winbox-react'
 import 'winbox-react/dist/index.css'
 
 class Example extends Component {
   render() {
-    return <MyComponent />
+    return <WinboxReact />
   }
 }
 ```

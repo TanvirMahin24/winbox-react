@@ -1,15 +1,15 @@
 .socialIcons {
   display: flex;
-  justify-content: space-around;
-  align-items: flex-start;
-  flex-direction: column;
-  padding-left: 15px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
 }
 
 .socialIcons a {
+  padding: 10px;
   text-decoration: none;
   font-size: 1.6rem;
-  color: var(--color_orange);
+  color: var(--color2);
   transition: 0.3s all ease;
 }
 
