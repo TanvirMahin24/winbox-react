@@ -27,7 +27,10 @@ const Hero = () => {
       </span>
       <span className={`d-block ${styles.text}`}>
         by
-        <a href='https://tanvirmahin.netlify.app/' className='title__colored'>
+        <a
+          href='https://nextapps-de.github.io/winbox/'
+          className='title__colored'
+        >
           WinBox.js
         </a>
       </span>

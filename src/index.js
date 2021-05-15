@@ -1,4 +1,4 @@
-import React, { useRef } from 'react'
+import React from 'react'
 import ReactDOMServer from 'react-dom/server'
 import WinBox from 'winbox/src/js/winbox'
 import 'winbox/dist/css/winbox.min.css'
