@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import WinboxReact from 'winbox-react'
 import styles from './Hero.module.css'
+import img from '../../Assets/image.png'
 
 const Hero = () => {
   const [show, setShow] = useState(false)
@@ -16,6 +17,7 @@ const Hero = () => {
           background='linear-gradient(90deg, rgba(49,36,239,1) 0%, rgba(67,0,168,1) 100%)'
         />
       )}
+      <img src={img} className='img-fluid mt-5' alt='' />
       <span className={`d-block ${styles.name}`}>WinBox React</span>
       <span className={`d-block ${styles.text} `}>
         by{' '}
