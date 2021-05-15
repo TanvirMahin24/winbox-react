@@ -21,7 +21,9 @@ const Usage = () => {
           {'npm i winbox-react'}
         </SyntaxHighlighter>
       </div>
-      <span className='d-block   text-center pt-3'>Import the CSS</span>
+      <span className='d-block   text-center pt-3'>
+        Import the CSS in the App.js file
+      </span>
       <div className={`mx-auto ${styles.code2}`}>
         <SyntaxHighlighter language='javascript' style={materialDark}>
           {"import 'winbox-react/dist/index.css'"}

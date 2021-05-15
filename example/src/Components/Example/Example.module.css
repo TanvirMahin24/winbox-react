@@ -1,0 +1,9 @@
+.code {
+  width: 390px;
+}
+.code2 {
+  width: 390px;
+}
+
+@media screen and (max-width: 1000px) {
+}

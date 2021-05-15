@@ -1,4 +1,6 @@
 import React from 'react'
+import { All } from '../../Components/All'
+import { Example } from '../../Components/Example'
 import { Hero } from '../../Components/Hero'
 import { Usage } from '../../Components/Usage'
 
@@ -7,6 +9,8 @@ const LandingPage = () => {
     <>
       <Hero />
       <Usage />
+      <Example />
+      <All />
     </>
   )
 }
