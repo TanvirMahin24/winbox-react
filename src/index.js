@@ -36,11 +36,13 @@ const WinboxReact = ({
     modal,
     html: `${ReactDOMServer.renderToStaticMarkup(children)}`,
     class: `${modern ? 'modern' : className ? `${className}` : ''}`,
-    onclose: onClose()
+    onclose: () => onClose()
   })
 
   return <div></div>
 }
+
+const func = () => {}
 
 WinboxReact.defaultProps = {
   title: 'Winbox React Title',
@@ -48,7 +50,8 @@ WinboxReact.defaultProps = {
   background: '#28292d',
   x: 0,
   y: 0,
-  modal: false
+  modal: false,
+  onClose: func
 }
 
-export default WinboxReact
+export default React.memo(WinboxReact)

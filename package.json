@@ -1,10 +1,11 @@
 {
   "name": "winbox-react",
-  "version": "1.0.1",
+  "version": "1.0.4",
   "description": "This package is the react version of Winbox.js ",
   "author": "TanvirMahin24",
   "license": "MIT",
   "repository": "TanvirMahin24/winbox-react",
+  "homepage": "https://tanvirmahin24.github.io/winbox-react/",
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.js",
