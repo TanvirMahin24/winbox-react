@@ -1,0 +1,12 @@
+.code,
+.code2 {
+  width: 600px;
+}
+
+@media screen and (max-width: 620px) {
+  .code,
+  .code2 {
+    width: 100%;
+    padding: 10px;
+  }
+}
