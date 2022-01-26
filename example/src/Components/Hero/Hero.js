@@ -38,6 +38,16 @@ const Hero = () => {
       <button onClick={clickHandeler} className='btn btn-custom btn-lg mt-4'>
         Show Example
       </button>
+
+      <span className={`d-block ${styles.text}`}>
+        This project needs funding. Please consider donating on 
+        <a
+          href='https://www.patreon.com/tanvirmahin24'
+          className='title__colored'
+        >
+          Patreon
+        </a>
+      </span>
     </div>
   )
 }
