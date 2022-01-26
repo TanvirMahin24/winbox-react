@@ -89,6 +89,8 @@ const options = {
   </WinboxReact>
 ```
 
+Help me improve this package by donation. [My Patreon](https://www.patreon.com/tanvirmahin24)
+
 ## License
 
 MIT © [TanvirMahin24](https://github.com/TanvirMahin24)
