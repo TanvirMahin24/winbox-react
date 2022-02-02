@@ -2,7 +2,9 @@
 
 > This package is the react version of Winbox.js
 
-Documentation with example code: [Visit Now](https://tanvirmahin24.github.io/winbox-react/)
+## Official Documentation: [Visit Now](https://devnops.tech/winbox-react/)
+
+ ## Example Code: [Visit Now](https://tanvirmahin24.github.io/winbox-react/)
 
 [![NPM](https://img.shields.io/npm/v/winbox-react.svg)](https://www.npmjs.com/package/winbox-react) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
@@ -89,7 +91,7 @@ const options = {
   </WinboxReact>
 ```
 
-Help me improve this package by donation. [My Patreon](https://www.patreon.com/tanvirmahin24)
+# Help me improve this package by becoming a [Patreon](https://www.patreon.com/tanvirmahin24)
 
 ## License
 

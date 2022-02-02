@@ -18,7 +18,7 @@
     "react-icons": "^4.2.0",
     "react-scripts": "file:../node_modules/react-scripts",
     "react-syntax-highlighter": "^15.4.3",
-    "winbox-react": "file:.."
+    "winbox-react": "file:../node_modules/winbox-react"
   },
   "devDependencies": {
     "@babel/plugin-syntax-object-rest-spread": "^7.8.3"
