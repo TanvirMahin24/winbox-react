@@ -2,9 +2,7 @@
 
 > This package is the react version of Winbox.js
 
-## Official Documentation: [Visit Now](https://devnops.tech/winbox-react/)
-
- ## Example Code: [Visit Now](https://tanvirmahin24.github.io/winbox-react/)
+ ## Official Documentation and Example Code: [Visit Now](https://tanvirmahin24.github.io/winbox-react/)
 
 [![NPM](https://img.shields.io/npm/v/winbox-react.svg)](https://www.npmjs.com/package/winbox-react) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
